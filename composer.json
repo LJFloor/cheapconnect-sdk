@@ -1,0 +1,21 @@
+{
+    "name": "ljfloor/cheapconnect-sdk",
+    "description": "A way to interact with CheapConnect's SMS api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CheapconnectSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LJFloor",
+            "email": "ljfloor@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
